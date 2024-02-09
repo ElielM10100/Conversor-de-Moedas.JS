@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula01</title>
+</head>
+<body>
+  
+<h1>AULA01 JS</h1>
+
+<div>
+  <label for="moeda_in">Moeda de entrada:</label>
+  <select name="valor_in" id="moeda_in">
+    <option value="real" selected>Real Brasileiro</option>
+    <option value="dolar">Dolar Americano</option>
+    <option value="euro">Euro</option>
+  </select>
+  <br>
+  <label for="moeda_out">Moeda de saida:</label>
+  <select name="valor_out" id="moeda_out">
+    <option value="real">Real Brasileiro</option>
+    <option value="dolar" selected>Dolar Americano</option>
+    <option value="euro">Euro</option>
+  </select>
+</div>
+<!-- Entrada de Valores a Serem Convertidos || Botao para mostrar Resultado -->
+<div>
+  <input type="number"  id="valor_entrada" value="1">
+  <button type="submit" onclick="money_cov.mul()">Send</button>
+</div>
+ 
+<script src="./script.js"></script>
+</body>
+</html>
